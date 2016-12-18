@@ -1,0 +1,83 @@
+
+
+h1{
+    font-size: 40px;
+}
+
+.pokemon{
+    border: 1px solid black;
+}
+
+#foo-bar{
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: orange;
+}
+
+h3.pokemon.pikachu{
+
+}
+
+.navigation a{
+    color: black;
+}
+
+.navigation a:hover{
+    color: gray;
+}
+
+.navigation > ul, ul{
+    list-style: none;
+}
+
+input[name="username"]{
+    border-color: red;
+}
+
+@media all and (orientation: landscape){
+    body{
+        color: orange !important;
+    }
+}
+
+
+/**
+ * variable declaration
+ */
+
+$bg-color: #123456;
+
+.pikachu {
+    color: $bg-color;
+}
+
+/**
+ * Nested styling
+ */
+
+.carousel{
+    h1{
+        color: black;
+        margin: 20px;
+    }
+}
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+
+
+ul li{
+    @include border-radius(30px);
+}
+
+.btn{
+    border: 1px solid black;
+}
+
+.btn-default{
+    @extend .btn;
+}

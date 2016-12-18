@@ -1,0 +1,26 @@
+h1 {
+  font-size: 40px; }
+
+.pokemon {
+  border: 1px solid black; }
+
+#foo-bar {
+  font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: orange; }
+
+.navigation a {
+  color: black; }
+
+.navigation a:hover {
+  color: gray; }
+
+.navigation > ul, ul {
+  list-style: none; }
+
+input[name="username"] {
+  border-color: red; }
+
+@media all and (orientation: landscape) {
+  body {
+    color: orange !important; } }
