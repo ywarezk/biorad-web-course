@@ -21,7 +21,7 @@ We will learn about the following topics:
 - Layout with Div - Student exercise
 - Image tags
 - Loading js script
-- loading scss
+- loading css
 - Forms
 - Student Exercise add a Form in our document
 
@@ -73,6 +73,15 @@ In this lesson we will cover the following topics:
 - What is webpack
 - working with ES6 & Typescript with webpack
 - Variable declaration
+- Lambda functions
+- Class declaration
+- Inheritance
+- Interface
+- TypeAnnotation
+
+#### Python
+
+Files in this lesson are located at the folder **Python** Demo
 
 
 
