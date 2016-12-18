@@ -7,17 +7,24 @@ we will also cover how to develop frontend applications using Angular 2.0. All t
 
 #### HTML
 
-We will start by examining web history and the HTTP protocol. We will then learn about the HTML language. The files for this lesson are located at the **HTML** folder. 
+We will start by examining web history and the HTTP protocol. We will then learn about the HTML language. The files for this lesson are located at the **html** folder. 
 We will learn about the following topics: 
 - HTML document structure
 - HTML general syntax
+- common attributes
 - head
 - body
 - Text Tags
 - Table
 - Div
 - Links
-- Layout with Div
+- Layout with Div - Student exercise
+- Image tags
+- Loading js script
+- loading scss
+- Forms
+- Student Exercise add a Form in our document
+
 
 #### CSS & SCSS
 
@@ -27,14 +34,47 @@ we will cover the following topics:
 - CSS in the HTML head
 - CSS as an external file
 - Splitting our css to multiple files
-- class selector
-- id selector
-- attribute selectors
-- pseudo class selectors
+- Selectors
+- !important
+- Responsive styling media queries
+- Student exercise create a twitter login form
 - SCSS variables
 - SCSS nesting styles
 - SCSS Mixins
-- 
+- Partials
+- Inheritance
+
+#### Bootstrap
+
+Files in this lesson are located at the folder **bootstrap-intro**
+We will cover the following topics:
+- Grid
+- Forms
+- Alerts
+- font-awesome
+- bootstrap templates
+
+#### Bootstrap Templates
+
+In this lesson we will see how it feels to work with templates, 
+What is the misconception about working with designers and we will try to use bootstrap template to create a todo application.
+For 1 hour you will have to create as much as you can from the following tasks: 
+- Install the needed css styles of the template
+- Create a left sidebar with links to the following pages: Register page, Login page, Create Todo page, Todo list page with the components from the template
+- The left sidebar should have an avatar
+ - create a top bar with an avatar and a welcome like the tempalte
+
+## Day 2
+
+#### JS, ES6 & TypeScript
+
+files in this lesson are located at the folder **js-es6-typescript**
+In this lesson we will cover the following topics: 
+- What is webpack
+- working with ES6 & Typescript with webpack
+- Variable declaration
+
+
 
 ## Day 3
 
