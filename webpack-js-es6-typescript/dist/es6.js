@@ -242,10 +242,33 @@
 	
 	$.ajax('https://nztodo.herokuapp.com/api/task/?format=json', {
 	    method: 'GET'
-	}).then(function (data) {
-	});
-
-
+	}).then(function (data) {});
+	
+	$.ajax('https://nztodo.herokuapp.com/api/task/', {
+	    method: 'POST',
+	    data: {
+	        "title": "test",
+	        "description": null,
+	        "group": "alex",
+	        "when": "2016-09-26T08:12:38.216000Z"
+	    }
+	}).then(function (data) {});
+	
+	$.ajax('https://nztodo.herokuapp.com/api/task/8864/', {
+	    method: 'PUT',
+	    data: {
+	        "title": "modified",
+	        "description": null,
+	        "group": "modified",
+	        "when": "2016-09-26T08:12:38.216000Z"
+	    }
+	}).then(function (data) {});
+	
+	// $.ajax('https://nztodo.herokuapp.com/api/task/8864/', {
+	//     method: 'DELETE',
+	// }).then(function(data){
+	//     debugger;
+	// });
 	
 	/**
 	 * the url of the server:
