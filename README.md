@@ -73,8 +73,16 @@ In this lesson we will cover the following topics:
 - What is webpack
 - working with ES6 & Typescript with webpack
 - Variable declaration
+- JS Types
+- Arrays
+- Dictionaries
+- Conditions
+- Loops
 - Lambda functions
 - Class declaration
+- Promise
+- XMLHttpObject
+- Student Ex. Create a Task model and a TaskService, the task model will represent a task and the service will have CRUD functions to the task in our server
 - Inheritance
 - Interface
 - TypeAnnotation
@@ -82,6 +90,8 @@ In this lesson we will cover the following topics:
 #### Python
 
 Files in this lesson are located at the folder **Python** Demo
+We will cover the following topics:
+-
 
 
 
