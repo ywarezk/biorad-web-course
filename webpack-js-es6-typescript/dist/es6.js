@@ -145,10 +145,19 @@
 	// class
 	
 	function Pokemon(name) {
+	    var self = this;
 	    var _name = name || 'pikachu';
-	
+	    this.age = 10;
 	    this.sayHello = function () {
 	        console.log(_name + ' said hello');
+	    };
+	
+	    this.birthday = function () {
+	        var _this = this;
+	
+	        setTimeout(function () {
+	            _this.age++;
+	        }, 1000);
 	    };
 	}
 	
@@ -163,6 +172,91 @@
 	function Pikachu(power) {
 	    Pokemon.call(this, 'pikachu');
 	}
+	
+	pikachu.birthday();
+	setTimeout(function () {
+	    console.log('pikachu age is: ' + pikachu.age);
+	}, 2000);
+	
+	// lambda function
+	
+	var myLambda = function myLambda() {
+	    return 'hello lambda';
+	};
+	
+	var myLambda2 = function myLambda2() {
+	    return 'hello lambda';
+	};
+	
+	//  Promise
+	
+	console.log('1');
+	var promise = new Promise(function (resolve, reject) {
+	    console.log('2');
+	    setTimeout(function () {
+	        console.log('6');
+	        reject('FAIL!!!');
+	        // resolve('hello from promise');
+	    }, 3000);
+	    console.log('3');
+	});
+	
+	console.log('4');
+	promise.then(function (data) {
+	    console.log(data);
+	}, function (error) {
+	    console.log('7');
+	    console.error('error is: ' + error);
+	});
+	console.log('5');
+	
+	// Promise server communication
+	
+	// https://nztodo.herokuapp.com/api/task/?format=json
+	
+	var serverPromise = new Promise(function (resolve, reject) {
+	    var request = new XMLHttpRequest();
+	    request.open('GET', 'https://nztodo.herokuapp.com/api/task/?format=json');
+	    request.addEventListener("load", function (event) {
+	        if (event.target.readyState == 4 && event.target.status == 200) {
+	            var arrayResponse = JSON.parse(event.target.response);
+	            resolve(arrayResponse);
+	        } else if (event.target.status != 200) {
+	            reject('What you doing fool');
+	        }
+	    });
+	    request.send();
+	});
+	
+	var serverPromise2 = serverPromise.then(function (arrayTasks) {
+	    var newArray = [];
+	    for (var i = 0; i < arrayTasks.length; i++) {
+	        newArray.push(new Task(arrayTasks[i]));
+	    }
+	    return newArray;
+	}, function (message) {
+	    console.error(message);
+	});
+	
+	serverPromise2.then(function (arrayTaskInstances) {});
+	
+	$.ajax('https://nztodo.herokuapp.com/api/task/?format=json', {
+	    method: 'GET'
+	}).then(function (data) {
+	    debugger;
+	});
+	
+	/**
+	 * the url of the server:
+	 * https://nztodo.herokuapp.com/api/task/?format=json
+	 * - create a class called TaskService
+	 * - TaskService will have the following methods:
+	 *     getTasks : Promise<Task[]>
+	 *     getTask : Promise<Task> will get an argument of id of task
+	 *     createTask : Promise<Task> will get a param of type Task
+	 *     updateTask : Promise<Task> will get a Task and will update by its value
+	 *     deleteTask : Promise<Response> will get a task and delete it
+	 */
 
 /***/ }
 /******/ ]);

@@ -47,6 +47,7 @@
 	/**
 	 * entry point for typescript
 	 */
+	"use strict";
 	var __extends = (this && this.__extends) || function (d, b) {
 	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
 	    function __() { this.constructor = d; }
@@ -86,6 +87,7 @@
 	    };
 	    return Pikachu;
 	}(Pokemon));
+	exports.Pikachu = Pikachu;
 	var pikachu = new Pikachu(10);
 	pikachu.sayHello();
 	// typescript exercise
@@ -103,7 +105,16 @@
 	 * - public method that returns a string of the object toString
 	 * - private method called fromDict that gets a dictionary and updates the properties
 	 * - to test create an instance of the class and call each method
-	 */ 
+	 */
+	var pokemons = [];
+	pokemons.push({ 'name': 'squirtle', 'sayHello': function () { } });
+	var Student = (function () {
+	    function Student() {
+	        this.firstName = 'Yariv';
+	    }
+	    return Student;
+	}());
+	var personDict = { firstName: 'yariv' };
 
 
 /***/ }

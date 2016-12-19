@@ -29,7 +29,7 @@ class Pokemon{
 
 // inheritance
 
-class Pikachu extends Pokemon{
+export class Pikachu extends Pokemon{
     constructor(public power : number){
         super('pikachu');
     }
@@ -59,3 +59,20 @@ pikachu.sayHello();
  * - private method called fromDict that gets a dictionary and updates the properties
  * - to test create an instance of the class and call each method
  */
+
+const pokemons : Pokemon[] = [];
+pokemons.push({'name': 'squirtle', 'sayHello': () => {}});
+
+// interface
+
+interface Person {
+    firstName : string,
+    age? : number
+}
+
+class Student implements Person{
+    public firstName : string = 'Yariv'
+}
+
+const personDict : Person = {firstName: 'yariv'};
+
