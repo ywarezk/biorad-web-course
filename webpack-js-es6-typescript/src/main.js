@@ -207,6 +207,8 @@ $.ajax('https://nztodo.herokuapp.com/api/task/?format=json', {
 });
 
 /**
+ * the url of the server:
+ * https://nztodo.herokuapp.com/api/task/?format=json
  * - create a class called TaskService
  * - TaskService will have the following methods:
  *     getTasks : Promise<Task[]>

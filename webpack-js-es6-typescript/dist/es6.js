@@ -243,8 +243,9 @@
 	$.ajax('https://nztodo.herokuapp.com/api/task/?format=json', {
 	    method: 'GET'
 	}).then(function (data) {
-	    debugger;
 	});
+
+
 	
 	/**
 	 * the url of the server:
