@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting app</title>
+</head>
+<body>
+
+    <h1>
+        Create greeting form
+    </h1>
+    <form method="post">
+        {% csrf_token %}
+        <label>
+            Enter greeting
+        </label>
+        <input type="text" name="greeting" maxlength="300">
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+
+    <h1>
+        Greeting list
+    </h1>
+    <ul>
+        {% for item in greetings %}
+            <li>
+                {{ item.title }}
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
