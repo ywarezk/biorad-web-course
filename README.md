@@ -116,7 +116,7 @@ we will cover the following topics:
 - Urls
 - Database & Models
 - Template 
-- Student Ex. Create a Django project and Django app with a url that displays an hello world message
+- Student Ex. Create a Django project and Django app with a url that displays an hello world message from a template
 
 #### Django Templates
 
