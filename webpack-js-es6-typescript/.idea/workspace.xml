@@ -115,11 +115,11 @@
         <entry file="file://$PROJECT_DIR$/dist/es6.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="701">
-              <caret line="280" column="0" selection-start-line="268" selection-start-column="4" selection-end-line="278" selection-end-column="7" />
+              <caret line="284" column="0" selection-start-line="272" selection-start-column="4" selection-end-line="282" selection-end-column="7" />
               <folding>
-                <element signature="e#368#376#0" expanded="false" />
+                <element signature="e#536#544#0" expanded="false" />
                 <element signature="e#925#933#0" expanded="false" />
-                <marker date="1482158594000" expanded="true" signature="5290:5291" ph="{...}" />
+                <marker date="1482158640000" expanded="true" signature="5290:5291" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,7 +162,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="997" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -497,7 +497,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="997" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29159936" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -655,11 +655,11 @@
     <entry file="file://$PROJECT_DIR$/dist/es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
-          <caret line="280" column="0" selection-start-line="268" selection-start-column="4" selection-end-line="278" selection-end-column="7" />
+          <caret line="284" column="0" selection-start-line="272" selection-start-column="4" selection-end-line="282" selection-end-column="7" />
           <folding>
-            <element signature="e#368#376#0" expanded="false" />
+            <element signature="e#536#544#0" expanded="false" />
             <element signature="e#925#933#0" expanded="false" />
-            <marker date="1482158594000" expanded="true" signature="5290:5291" ph="{...}" />
+            <marker date="1482158640000" expanded="true" signature="5290:5291" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -87,11 +87,43 @@ In this lesson we will cover the following topics:
 - Interface
 - TypeAnnotation
 
+## Day 3
+
 #### Python
 
 Files in this lesson are located at the folder **Python** Demo
 We will cover the following topics:
--
+- Variables
+- Lists
+- Dictionary
+- Indentation
+- Operators
+- Strings
+- Conditions
+- Loops
+- Functions
+- Classes
+- Inheritance
+
+#### Django Introduction
+
+In this lesson we will cover django architecture and demonstrate it using a simple hello world application.
+The files in this lesson are located at the folder **django-introduction
+we will cover the following topics:
+- Django Architecture
+- Virtualenv
+- Project and Apps
+- Urls
+- Database & Models
+- Template 
+- Student Ex. Create a Django project and Django app with a url that displays an hello world message
+
+#### Django Templates
+
+
+
+
+files in this lesson are located at the folder 
 
 
 
