@@ -124,6 +124,31 @@ we will cover the following topics:
 
 In this lesson we will learn about Django Templating Engine. Files in this lesson are located at the folder **django-templates**
 
+- inject variables to template
+- Inheritance
+- include
+- conditions
+- loops
+- filters
+- custom filter
+- CSRF
+- custom tags
+- summary student ex.: 
+    1. create an django project
+    2. create a django app called **todo**
+    3. modify the urls that in the route /todo/ our todo urls will be served
+    4. create a urls file for the todo app
+    5. in the urls file create a route for the root
+    6. this route should render a template
+    7. our template has a form with csrf token
+    8. our template has a search form that will add a get param to the url
+    9. our template will have a for loop to display a list of tasks
+    10. pass the list of tasks from the views in the todo app
+    11. each todo task will contain a title and a description and a date
+    12. a single item in the for loop is displayed with a custom tag created in the todo app
+    
+    
+
 
 
 
