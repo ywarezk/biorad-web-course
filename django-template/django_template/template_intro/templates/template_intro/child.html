@@ -1,0 +1,91 @@
+{% extends 'template_intro/fajar.html' %}
+
+{% block content %}
+    <h1>
+        injecting to template
+    </h1>
+    <p>
+        {{ my_number }}
+    </p>
+    <p>
+        {{ my_pokemon }}
+    </p>
+    <p>
+        {{ my_dict.message }}
+    </p>
+    <p>
+        {{ my_func }}
+    </p>
+    
+    <h1>
+        Conditions
+    </h1>
+    
+    {% if is_show_additional_info %}
+        <p>Additional info is true</p>
+    {% elif not is_show_additional_info and my_dict.keys  %}
+        <p>
+            Suprisingly my complex if is working
+        </p>
+    {% else %}
+        <p>
+        else is working
+        </p>
+    {% endif %}
+
+    <h1>
+        Loops
+    </h1>
+    {% for foo in my_dict.keys %}
+        {{ forloop.counter }}
+        {{ foo }}
+    {% endfor %}
+
+    <h1>
+        Filters
+    </h1>
+
+    <h2>
+        Date Filter
+    </h2>
+    <p>
+        {{ my_date|date:"Y/m/d" }}
+    </p>
+
+    <h2>
+        Float Format
+    </h2>
+    <p>
+        {{ my_float|floatformat:3 }}
+    </p>
+
+    <h2>
+        Custom Filter
+    </h2>
+    {% load template_intro_substring %}
+    {{ "January"|substring:"0:3" }}
+
+    <h1>
+    CSRF
+    </h1>
+    <form method="get">
+        <input name="search" placeholder="Search" />
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+    <h1>
+        Custom Tags
+    </h1>
+    {% load template_intro_search %}
+    <div>
+        {% search my_search_list my_search_string %}
+    </div>
+
+{#<h1>#}
+{#include#}
+{#</h1>    #}
+{#    {% include 'template_intro/includes/footer.html' %}#}
+{% endblock %}
+

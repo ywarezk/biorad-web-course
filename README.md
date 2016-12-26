@@ -118,7 +118,12 @@ we will cover the following topics:
 - Template 
 - Student Ex. Create a Django project and Django app with a url that displays an hello world message from a template
 
+## Day 4
+
 #### Django Templates
+
+In this lesson we will learn about Django Templating Engine. Files in this lesson are located at the folder **django-templates**
+
 
 
 
@@ -127,13 +132,3 @@ files in this lesson are located at the folder
 
 
 
-## Day 3
-
-In this day we will cover about server web application frameworks, we will talk about **Django** and do a small introduction to **NodeJS** and **Express**
-
-#### Django Introduction
-
-Introduction about **Django** and Django applications architecture. 
-The files in this lesson are located at the folder **django-introduction**
-We will cover:
-- 

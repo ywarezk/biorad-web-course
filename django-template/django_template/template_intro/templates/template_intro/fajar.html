@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django template language</title>
+</head>
+<body>
+
+    {% block nav %}
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://www.google.com" target="_blank">
+                        Google
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com" target="_blank">
+                        FACEBOOK
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+
+</body>
+</html>
