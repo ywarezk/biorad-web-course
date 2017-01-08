@@ -148,6 +148,47 @@ In this lesson we will learn about Django Templating Engine. Files in this lesso
     12. a single item in the for loop is displayed with a custom tag created in the todo app
     
     
+#### Django models
+
+Files in this lesson are located at the folder **django-models**
+In this lesson we learned about Django models that map to a database tables. 
+We learned about connection between tables and how we can make migrations and migrate when we are changing our models
+
+Student exercise
+- Create tables for your todo application
+- create a model for author with first name and last name
+- create a table for Task that hold the title description datetime and author of the task (author can write many tasks)
+- run make migration and migrate
+
+
+## Day 5
+
+#### Django URLS
+
+In this lesson we will learn about the proper way to construct urls and how we pass params
+from the url to our view
+Code from this lesson is located in the folder **django-urls**
+
+#### Django Static Files
+
+In this lesson we will learn how to properly serve static files in our django app.
+Files in this lesson are located at the folder **django-static**
+
+#### Django Rest Framework
+
+In this lesson we will learn how to build a REST server using django rest framework
+Files in this lesson are located at the folder: **django-rest-framework**
+Topics of this lesson:
+- Serializers
+- Student ex. Build serializers for your todo models
+- Views
+- Testing your api
+- Student ex. Complete your todo rest application
+
+## Day 6
+
+
+
 
 
 
