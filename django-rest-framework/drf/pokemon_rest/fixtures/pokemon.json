@@ -1,0 +1,29 @@
+[
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 1,
+    "fields": {
+        "name": "pikachu",
+        "strength": 20,
+        "date_added": "2017-01-08"
+    }
+},
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 2,
+    "fields": {
+        "name": "squirtle",
+        "strength": 20,
+        "date_added": "2017-02-27"
+    }
+},
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 3,
+    "fields": {
+        "name": "squirtle2",
+        "strength": 20,
+        "date_added": "2017-02-27"
+    }
+}
+]
