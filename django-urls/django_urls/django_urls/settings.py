@@ -25,7 +25,7 @@ SECRET_KEY = '*b4ar(!rm1419=gcb$2f8nc-z@x9%tl4u0w18o)nke33a=f$$6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
