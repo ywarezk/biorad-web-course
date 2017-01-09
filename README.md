@@ -187,7 +187,12 @@ Topics of this lesson:
 
 ## Day 6
 
+#### Django Admin
 
+In this lesson we will learn about the Django Admin application 
+The files in this lesson are located at the folder **django-admin**
+
+#### Django Forms
 
 
 
