@@ -1,0 +1,186 @@
+<h1>
+    hello world
+</h1>
+
+<h2>
+    Tags you can use
+</h2>
+<ul>
+    <li>
+        all html tags but:
+        <ul>
+            <li>
+                html
+            </li>
+            <li>
+                body
+            </li>
+            <li>
+                script
+            </li>
+            <li>
+                link
+            </li>
+            <li>
+                head
+            </li>
+        </ul>
+    </li>
+    <li>
+        Component selectors
+    </li>
+    <li>
+        Directive selectors
+    </li>
+    <li>
+        Core directives
+    </li>
+</ul>
+
+<h2>
+    Interpolation
+</h2>
+<p>
+    {{ 10 + 30 }}
+    <br/>
+    {{ 'hello' + 'pikachu' }}
+    <br/>
+    {{ 'hello' + stamString }}
+    <br/>
+    {{ myInterpolationFunc() }}
+</p>
+
+<h2>Binding</h2>
+
+<h5>From class to template</h5>
+
+<p>
+    {{ stamString }}
+</p>
+
+<button [disabled]="isButtonDisabled">
+    My disabled button
+</button>
+
+<label >Toggle disabled</label>
+<input type="checkbox" [(ngModel)]="isButtonDisabled" />
+
+<h5>
+    From template to class
+</h5>
+
+<h1 (mouseover)="changeHoverMeBackground()" [style.background-color]="myColor" >
+    Hover me!!!!
+</h1>
+
+<!--<h1 (mouseover)="myColor='orange'" [style.background-color]="myColor" >
+    Hover me2!!!!
+</h1>-->
+
+<!--<p (mouseover)="myColor=='red' ? myColor='yellow' : myColor='red'" [style.background-color]="myColor" >
+    Hover me3!!!!
+</p>-->
+
+<h5>
+    2 way binding
+</h5>
+
+<input type="text" [(ngModel)]="twoWayBindingDemo1" #myInput  />
+{{ twoWayBindingDemo1 }}
+
+<h2>
+    Components Communication
+</h2>
+
+<nav-bar [myLink]="myColor" (extraLinkEmitter)="myNavbarAction($event, navBarInstance)" #navBarInstance ></nav-bar>
+
+<h2>
+    Sending form input to form action without binding ngmodel
+</h2>
+
+<form>
+    <label>Enter Greetings</label>
+    <input type="text" #greetingInput />
+    <button (click)="submitGreeting(greetingInput)">
+        Submit
+    </button>
+</form>
+
+<ul>
+    <li *ngFor="let greeting of myGreetingArray">
+        {{ greeting }}
+    </li>
+</ul>
+
+<h2>
+    Changing styles
+</h2>
+
+<div
+        [style.width]="'100px'"
+        [style.height]="'100px'"
+        [style.background-color]="'red'"
+        [style.border]="myStyleBorder"
+>
+</div>
+
+<div [ngStyle]="myStyleDictionary">
+    asdfpasdfj
+</div>
+
+<h2>
+    Changing class
+</h2>
+<div [class.bio-rad]="myBioradClass">
+</div>
+<label>
+    Toggle bio rad class
+</label>
+<input type="checkbox" [(ngModel)]="myBioradClass" />
+
+<div [ngClass]="myClassDictionary">
+</div>
+
+<h2>
+    ngFor
+</h2>
+
+<ul>
+    <li *ngFor="let item of groceryList; let i=index">
+        {{ i }} {{ item }}
+    </li>
+</ul>
+
+<h2>
+    ngIf
+</h2>
+
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Id
+        </th>
+        <th>
+            Strength
+        </th>
+    </tr>
+    <tr *ngFor="let pokemon of pokemons; let isOdd=odd" [style.background-color]="isOdd ? 'gray': 'white'">
+        <td>
+            <span *ngIf="isOdd">
+                {{ pokemon.name }}
+            </span>
+            <span *ngIf="!isOdd">
+                -----------
+            </span>
+        </td>
+        <td>
+            {{ pokemon.id }}
+        </td>
+        <td>
+            {{ pokemon.strength }}
+        </td>
+    </tr>
+</table>

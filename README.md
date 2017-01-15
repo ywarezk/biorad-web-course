@@ -225,4 +225,14 @@ Topics we will cover:
 
 
 
+Student exercise: 
+
+- seperate template in a different file using webpack
+- create a file called task.model.ts this file exports a class called Task which has public properties for:
+    title, description, group, when : Date, id: number
+- In your app.component.ts create a public array of Task
+- populate your array with data
+- in your template you should have a form to enter a new task
+- below the form you should have a list to display all the task
+- when submiting the form a new task is added.
 

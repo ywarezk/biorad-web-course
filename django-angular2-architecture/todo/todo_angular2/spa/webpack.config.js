@@ -12,11 +12,19 @@ module.exports = {
         path: path.resolve(__dirname, '../static/todo_angular2')
     },
 
+    resolve: {
+        extensions: ['', '.js', '.ts']
+    },
+
     module: {
         loaders: [
             {
                 test: /\.ts$/,
                 loader: 'ts-loader'
+            },
+            {
+                test: /\.html$/,
+                loader: 'raw-loader'
             }
         ]
     }
