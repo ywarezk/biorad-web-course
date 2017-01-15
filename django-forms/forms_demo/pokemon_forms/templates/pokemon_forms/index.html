@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>
+        Hello world from pokemon forms
+    </h1>
+
+    <h2>
+        My form
+    </h2>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        <label>Pokemon name</label>
+        <input type="text" name="name" />
+        <label>Pokemon strength</label>
+        <input type="number" name="strength" />
+        <label>Pokemon date added</label>
+        <input type="date" name="date_added" />
+        <label>Email</label>
+        <input type="email" name="email" />
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+    <h2>
+        Pokemon form extending django forms
+    </h2>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {% for field in pokemon_form %}
+            <div class="form-group">
+                {{ field.label_tag }}
+                {{ field }}
+            </div>
+        {% endfor %}
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+    <h5>
+        {{ status }}
+    </h5>
+
+    <h2>
+        Pokemon model form
+    </h2>
+
+    {{ pokemon_model_form.as_table }}
+
+</body>
+</html>

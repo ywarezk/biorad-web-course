@@ -1,0 +1,17 @@
+{% extends 'admin/change_form.html' %}
+
+{% block content %}
+    {{ block.super }}
+
+    <form method="post" action="{% url 'admin:create_with_csv' %}" enctype="multipart/form-data" >
+        {% csrf_token %}
+        <label>
+            CSV file
+        </label>
+        <input name="csv" type="file" />
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+
+{% endblock %}

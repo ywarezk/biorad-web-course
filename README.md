@@ -194,12 +194,35 @@ The files in this lesson are located at the folder **django-admin**
 
 #### Django Forms
 
+In this lesson we will learn how Django can help us build forms and create validation and action for those forms
+files in this lesson are located at the folder **django-forms
 
 
+#### Angular2 Architecture
 
+In this lesson we will learn about angular architecture and we will cover the architecture blocks while creating a complex hello world application
+Files in this lesson are located at the folder **django-angular2-architecture**
 
+Topics we will cover:
+- Module
+- Component
+- Template
+- Directive
+- Service
 
-files in this lesson are located at the folder 
+Student ex. 
+Create hello world application using angular2 and django
+
+## Day 7
+
+**** Ng2 Template
+
+In this lesson we will learn about Angular2 Templating engine. Files of this lesson are located at the folder **django-angular2-template**
+Topics we will cover:
+- Interpolation
+- Binding
+- communicating with components
+
 
 
 
