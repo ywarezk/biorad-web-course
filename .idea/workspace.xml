@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0da3a15-5411-4376-a7c2-16951378d8f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/src/components/app.component.ts" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common-testing.umd.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common.umd.min.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/bundles/common.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/package.json" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_class.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_class.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_class.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.d.ts" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/directives/ng_plural.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/i18n_plural_pipe.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/i18n_plural_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/i18n_plural_pipe.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/i18n_plural_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/number_pipe.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/number_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/number_pipe.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/number_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/slice_pipe.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/slice_pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/slice_pipe.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/pipes/slice_pipe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.js.map" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.metadata.json" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@angular/common/src/version.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@types/core-js/package.json" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/node_modules/@types/core-js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/package.json" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/src/app.module.ts" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/src/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/webpack.config.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/spa/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/static/todo_angular2/app.js" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/static/todo_angular2/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/templates/todo_angular2/index.html" afterPath="$PROJECT_DIR$/django-angular2-architecture/todo/todo_angular2/templates/todo_angular2/index.html" />
-    </list>
+    <list default="true" id="f0da3a15-5411-4376-a7c2-16951378d8f3" name="Default" comment="" />
     <ignored path="biorad-files.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +64,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="997" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,8 +133,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="997" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="873" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

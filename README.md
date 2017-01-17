@@ -236,3 +236,24 @@ Student exercise:
 - below the form you should have a list to display all the task
 - when submiting the form a new task is added.
 
+## Day 8
+
+#### Angular Forms
+
+Files in this lesson are located at the folder **angular-forms** topics in this lesson:
+- including bootstrap and font-awesome
+- design our form
+- validation classes
+- ngForm
+- ngModel
+- ngSubmit
+
+Student exercise 
+add validation to the form you created in the previous exercise.
+
+#### RXJS
+
+Files in this lesson are located at the folder **rxjs-demo** topics of the lesson are:
+- What is the ReactiveX library
+- Reminder about Promises
+- 
