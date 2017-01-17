@@ -257,3 +257,26 @@ Files in this lesson are located at the folder **rxjs-demo** topics of the lesso
 - What is the ReactiveX library
 - Reminder about Promises
 - 
+
+#### Angular  Http
+
+Student exercise
+
+- In your django rest application create another app for angular
+- Copy your working angular spa folder to the new application
+- make sure you have a rest server working and an angular hello world working before starting
+- Create a task model
+- Create a task service with 
+    * getAllTasks
+    * getSingleTask
+    * deleteTask
+    * createTask
+    * updateTask
+    
+- In your component create a form component to post and create a new task
+- create a list component that displays all the tasks from the server
+- create a delete button in the list to delete a list item
+
+
+
+
