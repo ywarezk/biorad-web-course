@@ -277,6 +277,32 @@ Student exercise
 - create a list component that displays all the tasks from the server
 - create a delete button in the list to delete a list item
 
+## Day 9
+
+#### Angular Routing
+
+Files in this lesson are located at the folder **angular-routing**
+topics we will cover: 
+
+- Creating the RoutingModule
+- Navigating with routerLink, injecting Router
+- routerLinkActive & routerLinkActiveOptions
+- CanActivate
+- data & resolve
+- Matrix params and URL params
+
+#### Angular Directives
+
+Files in this lesson are located at the folder **angular-directives**
+We will cover the following topics: 
+
+- @Directive
+- ElementRef
+- HostBinding
+- HostListener
+- Input
+
+
 
 
 
