@@ -1,0 +1,32 @@
+[
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 1,
+    "fields": {
+        "catcher": 1,
+        "name": "pikachu",
+        "strength": 50,
+        "description": "lightning pokemon"
+    }
+},
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 2,
+    "fields": {
+        "catcher": 2,
+        "name": "squirtle",
+        "strength": 60,
+        "description": "water pokemon"
+    }
+},
+{
+    "model": "pokemon_rest.pokemon",
+    "pk": 3,
+    "fields": {
+        "catcher": 2,
+        "name": "balbasour",
+        "strength": 70,
+        "description": "dsfg"
+    }
+}
+]

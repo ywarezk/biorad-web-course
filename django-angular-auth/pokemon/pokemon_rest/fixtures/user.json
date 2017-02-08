@@ -1,0 +1,38 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$0S7QkI7Sx5OK$qNjimaVtIBc7cUbpETkCvIBy2Qbe1snzBLwMmCpna9I=",
+        "last_login": "2017-02-08T08:07:38.083Z",
+        "is_superuser": true,
+        "username": "erez",
+        "first_name": "",
+        "last_name": "",
+        "email": "biorad@biorad.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-02-08T08:07:00.464Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$2ZYF6QsnZPsE$bfvdg36A9t05x/t/rZDxQ2dt8qxAG0V5XdyYTBnrDeQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "lital",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-02-08T08:16:08.196Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
